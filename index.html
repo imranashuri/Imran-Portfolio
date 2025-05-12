@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Imran | Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="shortcut icon" href="Black_Grey_Simple_Initial_Logo__3_-removebg-preview.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <span class="logo">
+                    <i class="fas fa-code"></i> Muhammad Imran
+                </span>
+                <div class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div id="particles-js"></div>
+        <section class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p id="typing-text"></p> <!-- Yeh text dynamically appear hoga -->
+            <a href="#projects" class="btn">View My Work</a>
+        </section>
+
+        <div class="image-container">
+            <img
+                src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-illustration-download-in-svg-png-gif-file-formats--website-application-app-solution-software-pack-seo-illustrations-2918517.png?f=webp">
+        </div>
+
+    </main>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Muhammad Imran, a passionate Front-End Developer currently pursuing a Bachelor's in Computer
+                Science.</p>
+
+            <div class="about-content">
+                <div class="about-box">
+                    <h3>Education</h3>
+                    <p>BS Computer Science (In Progress)</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, JavaScript, UI/UX Design</p>
+                </div>
+
+                <div class="about-box">
+                    <h3>Interests</h3>
+                    <p>Web Development, Graphic Design, Problem Solving</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="projects-container">
+
+                <!-- <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Netfilix Clone</p>
+                    <a href="https://github.com/hadihassan5/Project-Netflix-" target="_blank">View on GitHub</a>
+                </div> -->
+
+                <div class="project-card">
+                    <!-- <img src="project3.jpg" alt="Project 3"> -->
+                    <h3>Project 1</h3>
+                    <p>Shopping Store</p>
+                    <a href="" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <!-- <img src="project2.jpg" alt="Project 2"> -->
+                    <h3>Project 2</h3>
+                    <p>Website</p>
+                    <a href="" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="More_github">
+                <a href="#" target="_blank" class="btn">See More on GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for any collaboration or queries.</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> imranashoori@gmail.com</p>
+                <p><strong>Phone:</strong> +92 348 7865599</p>
+                <p><strong>Location:</strong> Islamabad, Pakistan</p>
+            </div>
+
+            <div class="social-links">
+                <a href="" target="_blank">LinkedIn</a> |
+                <a href="https://www.github.com/imranashuri/" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Muhammad Imran. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#00ffff"
+                },
+                "shape": {
+                    "type": "polygon",
+                    "polygon": {
+                        "nb_sides": 3
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": true
+                },
+                "size": {
+                    "value": 4,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#00ffff",
+                    "opacity": 0.7,
+                    "width": 1.5
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+    </script>
+
+
+</body>
+
+</html>
